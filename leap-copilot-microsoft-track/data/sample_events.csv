@@ -1,0 +1,13 @@
+student_id,timestamp,question_id,concept_id,correct,response_time_sec,attempt_no,difficulty,source
+student_001,2026-02-10T09:00:00+00:00,q001,algebra_linear,1,18,1,0.45,quiz
+student_001,2026-02-10T09:05:00+00:00,q002,algebra_linear,0,29,1,0.50,quiz
+student_001,2026-02-10T09:12:00+00:00,q003,algebra_linear,0,31,1,0.60,quiz
+student_001,2026-02-11T10:00:00+00:00,q004,calculus_limits,1,14,1,0.55,quiz
+student_001,2026-02-11T10:06:00+00:00,q005,calculus_limits,1,13,1,0.58,quiz
+student_001,2026-02-11T10:12:00+00:00,q006,calculus_limits,0,10,1,0.62,quiz
+student_001,2026-02-12T12:00:00+00:00,q007,probability_basic,0,24,1,0.48,quiz
+student_001,2026-02-12T12:05:00+00:00,q008,probability_basic,0,26,1,0.52,quiz
+student_001,2026-02-12T12:10:00+00:00,q009,probability_basic,1,21,1,0.54,quiz
+student_001,2026-02-27T08:00:00+00:00,q010,algebra_linear,0,29,2,0.65,quiz
+student_001,2026-02-27T08:05:00+00:00,q011,algebra_linear,0,27,2,0.68,quiz
+student_001,2026-02-28T07:30:00+00:00,q012,probability_basic,0,25,2,0.60,quiz

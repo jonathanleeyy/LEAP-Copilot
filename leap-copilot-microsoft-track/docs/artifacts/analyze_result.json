@@ -1,0 +1,191 @@
+{
+  "recommendation_id": 6,
+  "student_id": "student_001",
+  "generated_at": "2026-03-01T16:57:31.006541Z",
+  "concept_states": [
+    {
+      "concept_id": "algebra_linear",
+      "mastery_score": 0.131,
+      "trend": "stagnant",
+      "confidence": 0.417,
+      "inactivity_days": 2,
+      "evidence": [
+        "accuracy=0.20",
+        "recent_accuracy=0.20",
+        "avg_response_time=26.8s",
+        "inactivity_days=2",
+        "attempts=5"
+      ]
+    },
+    {
+      "concept_id": "probability_basic",
+      "mastery_score": 0.253,
+      "trend": "stagnant",
+      "confidence": 0.35,
+      "inactivity_days": 1,
+      "evidence": [
+        "accuracy=0.25",
+        "recent_accuracy=0.25",
+        "avg_response_time=24.0s",
+        "inactivity_days=1",
+        "attempts=4"
+      ]
+    },
+    {
+      "concept_id": "calculus_limits",
+      "mastery_score": 0.567,
+      "trend": "stagnant",
+      "confidence": 0.35,
+      "inactivity_days": 18,
+      "evidence": [
+        "accuracy=0.67",
+        "recent_accuracy=0.67",
+        "avg_response_time=12.3s",
+        "inactivity_days=18",
+        "attempts=3"
+      ]
+    }
+  ],
+  "diagnosis": [
+    {
+      "concept_id": "algebra_linear",
+      "cause": "concept_gap",
+      "score": 1.0,
+      "evidence": [
+        "accuracy=0.20",
+        "recent_accuracy=0.20",
+        "avg_response_time=26.8s",
+        "inactivity_days=2",
+        "attempts=5",
+        "low_accuracy_high_latency"
+      ]
+    },
+    {
+      "concept_id": "probability_basic",
+      "cause": "concept_gap",
+      "score": 0.947,
+      "evidence": [
+        "accuracy=0.25",
+        "recent_accuracy=0.25",
+        "avg_response_time=24.0s",
+        "inactivity_days=1",
+        "attempts=4",
+        "low_accuracy_high_latency"
+      ]
+    },
+    {
+      "concept_id": "calculus_limits",
+      "cause": "inactivity_decay",
+      "score": 0.583,
+      "evidence": [
+        "accuracy=0.67",
+        "recent_accuracy=0.67",
+        "avg_response_time=12.3s",
+        "inactivity_days=18",
+        "attempts=3",
+        "long_gap_detected"
+      ]
+    }
+  ],
+  "seven_day_plan": [
+    {
+      "day": 1,
+      "concept_id": "algebra_linear",
+      "activity": "Concept rebuild: 2 worked examples + 5 targeted questions",
+      "duration_min": 15,
+      "expected_outcome": "Raise conceptual clarity and reduce repeated misunderstandings",
+      "confidence": 1.0,
+      "evidence": [
+        "accuracy=0.20",
+        "recent_accuracy=0.20",
+        "avg_response_time=26.8s",
+        "inactivity_days=2"
+      ]
+    },
+    {
+      "day": 2,
+      "concept_id": "probability_basic",
+      "activity": "Concept rebuild: 2 worked examples + 5 targeted questions",
+      "duration_min": 15,
+      "expected_outcome": "Raise conceptual clarity and reduce repeated misunderstandings",
+      "confidence": 0.947,
+      "evidence": [
+        "accuracy=0.25",
+        "recent_accuracy=0.25",
+        "avg_response_time=24.0s",
+        "inactivity_days=1"
+      ]
+    },
+    {
+      "day": 3,
+      "concept_id": "calculus_limits",
+      "activity": "Spaced recall restart: summary + retrieval practice",
+      "duration_min": 15,
+      "expected_outcome": "Recover forgotten knowledge after inactivity",
+      "confidence": 0.583,
+      "evidence": [
+        "accuracy=0.67",
+        "recent_accuracy=0.67",
+        "avg_response_time=12.3s",
+        "inactivity_days=18"
+      ]
+    },
+    {
+      "day": 4,
+      "concept_id": "algebra_linear",
+      "activity": "Concept rebuild: 2 worked examples + 5 targeted questions",
+      "duration_min": 15,
+      "expected_outcome": "Raise conceptual clarity and reduce repeated misunderstandings",
+      "confidence": 1.0,
+      "evidence": [
+        "accuracy=0.20",
+        "recent_accuracy=0.20",
+        "avg_response_time=26.8s",
+        "inactivity_days=2"
+      ]
+    },
+    {
+      "day": 5,
+      "concept_id": "probability_basic",
+      "activity": "Concept rebuild: 2 worked examples + 5 targeted questions",
+      "duration_min": 15,
+      "expected_outcome": "Raise conceptual clarity and reduce repeated misunderstandings",
+      "confidence": 0.947,
+      "evidence": [
+        "accuracy=0.25",
+        "recent_accuracy=0.25",
+        "avg_response_time=24.0s",
+        "inactivity_days=1"
+      ]
+    },
+    {
+      "day": 6,
+      "concept_id": "calculus_limits",
+      "activity": "Spaced recall restart: summary + retrieval practice",
+      "duration_min": 15,
+      "expected_outcome": "Recover forgotten knowledge after inactivity",
+      "confidence": 0.583,
+      "evidence": [
+        "accuracy=0.67",
+        "recent_accuracy=0.67",
+        "avg_response_time=12.3s",
+        "inactivity_days=18"
+      ]
+    },
+    {
+      "day": 7,
+      "concept_id": "algebra_linear",
+      "activity": "Concept rebuild: 2 worked examples + 5 targeted questions",
+      "duration_min": 15,
+      "expected_outcome": "Raise conceptual clarity and reduce repeated misunderstandings",
+      "confidence": 1.0,
+      "evidence": [
+        "accuracy=0.20",
+        "recent_accuracy=0.20",
+        "avg_response_time=26.8s",
+        "inactivity_days=2"
+      ]
+    }
+  ],
+  "summary": "Analyzed 12 events across 3 concepts. Generated 7 daily tasks with explicit evidence links."
+}

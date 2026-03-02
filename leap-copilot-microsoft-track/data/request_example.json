@@ -1,0 +1,28 @@
+{
+  "student_id": "student_001",
+  "daily_minutes": 45,
+  "events": [
+    {
+      "student_id": "student_001",
+      "timestamp": "2026-02-25T08:00:00+00:00",
+      "question_id": "q100",
+      "concept_id": "algebra_linear",
+      "correct": 0,
+      "response_time_sec": 28,
+      "attempt_no": 1,
+      "difficulty": 0.55,
+      "source": "quiz"
+    },
+    {
+      "student_id": "student_001",
+      "timestamp": "2026-02-25T08:05:00+00:00",
+      "question_id": "q101",
+      "concept_id": "algebra_linear",
+      "correct": 1,
+      "response_time_sec": 20,
+      "attempt_no": 1,
+      "difficulty": 0.58,
+      "source": "quiz"
+    }
+  ]
+}

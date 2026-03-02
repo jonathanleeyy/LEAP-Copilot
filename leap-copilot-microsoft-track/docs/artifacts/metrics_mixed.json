@@ -1,0 +1,9 @@
+{
+  "total_recommendations": 6,
+  "total_feedback": 7,
+  "accept_rate": 0.714,
+  "edit_rate": 0.143,
+  "reject_rate": 0.143,
+  "actionability_rate": 1.0,
+  "explainability_coverage": 1.0
+}
