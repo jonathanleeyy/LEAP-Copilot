@@ -85,7 +85,7 @@ No build step required. The frontend uses CDN-loaded fonts and Chart.js. Open `i
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/leap-copilot.git
+git clone https://github.com/jonathanleeyy/leap-copilot.git
 cd leap-copilot
 ```
 
