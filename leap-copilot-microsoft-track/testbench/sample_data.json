@@ -1,0 +1,218 @@
+{
+  "student": {
+    "username": "testuser_leap",
+    "year": "Year 2",
+    "semester": "Semester 1"
+  },
+  "modules": [
+    {
+      "id": "mod_001",
+      "name": "Probability Theory",
+      "year": "Year 2",
+      "semester": "Semester 1",
+      "test_date": "2025-12-15",
+      "topics": [
+        "Bayes Theorem",
+        "Random Variables",
+        "Probability Distributions",
+        "Central Limit Theorem"
+      ]
+    },
+    {
+      "id": "mod_002",
+      "name": "Linear Algebra",
+      "year": "Year 2",
+      "semester": "Semester 1",
+      "test_date": "2025-12-22",
+      "topics": [
+        "Matrix Operations",
+        "Eigenvalues and Eigenvectors",
+        "Vector Spaces",
+        "Linear Transformations"
+      ]
+    },
+    {
+      "id": "mod_003",
+      "name": "Data Structures",
+      "year": "Year 2",
+      "semester": "Semester 1",
+      "test_date": "2025-12-10",
+      "topics": [
+        "Binary Search Trees",
+        "Graph Algorithms",
+        "Dynamic Programming",
+        "Hash Tables"
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_001",
+      "module": "Probability Theory",
+      "topic": "Bayes Theorem",
+      "marks_obtained": 4,
+      "marks_total": 10,
+      "response_time_sec": 72,
+      "difficulty": 0.8,
+      "attempt_number": 1,
+      "timestamp": "2025-11-20T10:30:00"
+    },
+    {
+      "id": "log_002",
+      "module": "Probability Theory",
+      "topic": "Bayes Theorem",
+      "marks_obtained": 5,
+      "marks_total": 10,
+      "response_time_sec": 65,
+      "difficulty": 0.8,
+      "attempt_number": 2,
+      "timestamp": "2025-11-23T14:00:00"
+    },
+    {
+      "id": "log_003",
+      "module": "Probability Theory",
+      "topic": "Random Variables",
+      "marks_obtained": 3,
+      "marks_total": 10,
+      "response_time_sec": 80,
+      "difficulty": 0.75,
+      "attempt_number": 1,
+      "timestamp": "2025-11-25T09:15:00"
+    },
+    {
+      "id": "log_004",
+      "module": "Probability Theory",
+      "topic": "Probability Distributions",
+      "marks_obtained": 6,
+      "marks_total": 10,
+      "response_time_sec": 45,
+      "difficulty": 0.65,
+      "attempt_number": 1,
+      "timestamp": "2025-11-27T11:00:00"
+    },
+    {
+      "id": "log_005",
+      "module": "Linear Algebra",
+      "topic": "Matrix Operations",
+      "marks_obtained": 8,
+      "marks_total": 10,
+      "response_time_sec": 22,
+      "difficulty": 0.5,
+      "attempt_number": 1,
+      "timestamp": "2025-11-18T13:30:00"
+    },
+    {
+      "id": "log_006",
+      "module": "Linear Algebra",
+      "topic": "Eigenvalues and Eigenvectors",
+      "marks_obtained": 7,
+      "marks_total": 10,
+      "response_time_sec": 35,
+      "difficulty": 0.7,
+      "attempt_number": 1,
+      "timestamp": "2025-11-21T15:00:00"
+    },
+    {
+      "id": "log_007",
+      "module": "Linear Algebra",
+      "topic": "Vector Spaces",
+      "marks_obtained": 9,
+      "marks_total": 10,
+      "response_time_sec": 18,
+      "difficulty": 0.55,
+      "attempt_number": 1,
+      "timestamp": "2025-11-24T10:00:00"
+    },
+    {
+      "id": "log_008",
+      "module": "Data Structures",
+      "topic": "Binary Search Trees",
+      "marks_obtained": 5,
+      "marks_total": 10,
+      "response_time_sec": 55,
+      "difficulty": 0.7,
+      "attempt_number": 1,
+      "timestamp": "2025-11-19T09:00:00"
+    },
+    {
+      "id": "log_009",
+      "module": "Data Structures",
+      "topic": "Graph Algorithms",
+      "marks_obtained": 4,
+      "marks_total": 10,
+      "response_time_sec": 78,
+      "difficulty": 0.85,
+      "attempt_number": 1,
+      "timestamp": "2025-11-22T14:30:00"
+    },
+    {
+      "id": "log_010",
+      "module": "Data Structures",
+      "topic": "Dynamic Programming",
+      "marks_obtained": 3,
+      "marks_total": 10,
+      "response_time_sec": 90,
+      "difficulty": 0.9,
+      "attempt_number": 1,
+      "timestamp": "2025-11-26T16:00:00"
+    },
+    {
+      "id": "log_011",
+      "module": "Data Structures",
+      "topic": "Dynamic Programming",
+      "marks_obtained": 5,
+      "marks_total": 10,
+      "response_time_sec": 70,
+      "difficulty": 0.9,
+      "attempt_number": 2,
+      "timestamp": "2025-11-28T11:00:00"
+    },
+    {
+      "id": "log_012",
+      "module": "Linear Algebra",
+      "topic": "Linear Transformations",
+      "marks_obtained": 8,
+      "marks_total": 10,
+      "response_time_sec": 25,
+      "difficulty": 0.6,
+      "attempt_number": 1,
+      "timestamp": "2025-11-29T10:30:00"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asgn_001",
+      "module": "Probability Theory",
+      "title": "Problem Set 1",
+      "marks_obtained": 14,
+      "marks_total": 20,
+      "due_date": "2025-11-15"
+    },
+    {
+      "id": "asgn_002",
+      "module": "Data Structures",
+      "title": "Lab Assignment 2",
+      "marks_obtained": 16,
+      "marks_total": 25,
+      "due_date": "2025-11-20"
+    },
+    {
+      "id": "asgn_003",
+      "module": "Linear Algebra",
+      "title": "Quiz 1",
+      "marks_obtained": 18,
+      "marks_total": 20,
+      "due_date": "2025-11-22"
+    }
+  ],
+  "expected_concept_states": {
+    "Probability Theory": "low",
+    "Linear Algebra": "high",
+    "Data Structures": "low"
+  },
+  "expected_plan_priorities": [
+    "Data Structures",
+    "Probability Theory",
+    "Linear Algebra"
+  ]
+}
